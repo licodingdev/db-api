@@ -1,0 +1,31 @@
+# Supabase Local Development Template
+# Bu dosya projeyi docker ile başlatmak için kullanılır
+version: '3.8'
+
+services:
+  # Bu dosya Supabase CLI tarafından otomatik oluşturulur
+  # supabase start komutu ile tüm servisler başlatılır
+  # 
+  # Eğer manuel Docker Compose kullanmak istersen:
+  # docker-compose up -d
+  #
+  # Servisler:
+  # - PostgreSQL Database (Port: 54322)
+  # - Supabase Studio (Port: 54323) 
+  # - API Gateway (Port: 54321)
+  # - Realtime (WebSocket)
+  # - Storage API
+  # - Edge Functions
+  # - Auth Service (GoTrue)
+  
+  # Not: Supabase CLI kendi Docker Compose konfigürasyonunu kullanır
+  # Bu dosya sadece referans amaçlıdır
+
+  # Eğer custom konfigürasyon yapılması gerekirse:
+  placeholder:
+    image: alpine:latest
+    command: echo "Supabase CLI ile başlatın: supabase start"
+    
+networks:
+  default:
+    name: supabase_default 

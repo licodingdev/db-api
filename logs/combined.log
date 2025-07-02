@@ -1,0 +1,78 @@
+{"level":"info","message":"Database başarıyla başlatıldı","timestamp":"2025-07-02T16:16:59.392Z"}
+{"level":"info","message":"🚀 Server 3000 portunda çalışıyor","timestamp":"2025-07-02T16:16:59.396Z"}
+{"level":"info","message":"📚 API Docs: http://localhost:3000/","timestamp":"2025-07-02T16:16:59.396Z"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","timestamp":"2025-07-02T16:16:59.396Z"}
+{"level":"info","message":"GET /health - ::1","timestamp":"2025-07-02T16:17:02.805Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:17:09.233Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:17:15.778Z"}
+{"level":"info","message":"GET /api/projects - ::1","timestamp":"2025-07-02T16:17:21.528Z"}
+{"level":"info","message":"GET /api/projects/stats/ports - ::1","timestamp":"2025-07-02T16:17:26.896Z"}
+{"level":"info","message":"POST /api/projects/95436c33-caed-460b-aa4f-f5513d4a76cc/start - ::1","timestamp":"2025-07-02T16:17:33.675Z"}
+{"level":"info","message":"POST /api/projects/95436c33-caed-460b-aa4f-f5513d4a76cc/start - ::1","timestamp":"2025-07-02T16:18:23.752Z"}
+{"level":"info","message":"POST /api/projects/9486be49-923a-4aa7-acc6-e04260fcaa19/start - ::1","timestamp":"2025-07-02T16:19:04.433Z"}
+{"level":"info","message":"DELETE /api/projects/95436c33-caed-460b-aa4f-f5513d4a76cc - ::1","timestamp":"2025-07-02T16:20:29.178Z"}
+{"level":"info","message":"DELETE /api/projects/9486be49-923a-4aa7-acc6-e04260fcaa19 - ::1","timestamp":"2025-07-02T16:20:47.081Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:20:53.634Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:20:59.395Z"}
+{"level":"info","message":"POST /api/projects/3d4911a8-1022-4083-93da-6d008f63fb37/start - ::1","timestamp":"2025-07-02T16:21:04.288Z"}
+{"level":"info","message":"POST /api/projects/ff7ccc4c-54d3-4988-a59b-76871bbec6ac/start - ::1","timestamp":"2025-07-02T16:21:37.504Z"}
+{"level":"info","message":"DELETE /api/projects/3d4911a8-1022-4083-93da-6d008f63fb37 - ::1","timestamp":"2025-07-02T16:22:37.847Z"}
+{"level":"info","message":"SIGINT alındı, server kapatılıyor...","timestamp":"2025-07-02T16:38:49.545Z"}
+{"level":"info","message":"Local database başarıyla başlatıldı","timestamp":"2025-07-02T16:45:46.632Z"}
+{"code":"28000","file":"miscinit.c","length":100,"level":"error","line":"770","message":"Server başlatma hatası: role \"postgres\" does not exist","name":"error","routine":"InitializeSessionUserId","severity":"FATAL","stack":"error: role \"postgres\" does not exist\n    at /Users/kurtuluscomertq/Desktop/psql-api/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initMasterConnection (file:///Users/kurtuluscomertq/Desktop/psql-api/services/databaseManager.js:36:20)\n    at async startServer (file:///Users/kurtuluscomertq/Desktop/psql-api/server.js:130:5)","timestamp":"2025-07-02T16:45:46.647Z"}
+{"level":"info","message":"Local database başarıyla başlatıldı","timestamp":"2025-07-02T16:46:13.303Z"}
+{"code":"28000","file":"miscinit.c","length":100,"level":"error","line":"770","message":"Server başlatma hatası: role \"postgres\" does not exist","name":"error","routine":"InitializeSessionUserId","severity":"FATAL","stack":"error: role \"postgres\" does not exist\n    at /Users/kurtuluscomertq/Desktop/psql-api/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initMasterConnection (file:///Users/kurtuluscomertq/Desktop/psql-api/services/databaseManager.js:36:20)\n    at async startServer (file:///Users/kurtuluscomertq/Desktop/psql-api/server.js:130:5)","timestamp":"2025-07-02T16:46:13.315Z"}
+{"level":"info","message":"Local database başarıyla başlatıldı","timestamp":"2025-07-02T16:49:33.774Z"}
+{"level":"info","message":"PostgreSQL master bağlantısı başarıyla başlatıldı","timestamp":"2025-07-02T16:49:33.795Z"}
+{"level":"info","message":"🚀 Server 3000 portunda çalışıyor","timestamp":"2025-07-02T16:49:33.797Z"}
+{"level":"info","message":"📚 API Docs: http://localhost:3000/","timestamp":"2025-07-02T16:49:33.797Z"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","timestamp":"2025-07-02T16:49:33.797Z"}
+{"level":"info","message":"🐘 PostgreSQL Project Manager hazır!","timestamp":"2025-07-02T16:49:33.797Z"}
+{"level":"info","message":"GET /health - ::1","timestamp":"2025-07-02T16:49:43.376Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:49:50.884Z"}
+{"level":"info","message":"POST /api/database/2185db45-d307-4500-a37e-6edc0387ffec/tables - ::1","timestamp":"2025-07-02T16:49:59.823Z"}
+{"level":"info","message":"POST /api/database/2185db45-d307-4500-a37e-6edc0387ffec/tables - ::1","timestamp":"2025-07-02T16:50:08.396Z"}
+{"level":"info","message":"DELETE /api/projects/2185db45-d307-4500-a37e-6edc0387ffec - ::1","timestamp":"2025-07-02T16:50:27.719Z"}
+{"level":"info","message":"DELETE /api/projects/2185db45-d307-4500-a37e-6edc0387ffec - ::1","timestamp":"2025-07-02T16:50:48.094Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:51:05.404Z"}
+{"level":"info","message":"POST /api/database/c3580494-de96-42fc-8f46-b85e48b2ce86/tables - ::1","timestamp":"2025-07-02T16:51:14.380Z"}
+{"level":"info","message":"SIGTERM alındı, server kapatılıyor...","timestamp":"2025-07-02T16:52:07.797Z"}
+{"level":"info","message":"Local database başarıyla başlatıldı","timestamp":"2025-07-02T16:52:10.062Z"}
+{"level":"info","message":"PostgreSQL master bağlantısı başarıyla başlatıldı","timestamp":"2025-07-02T16:52:10.086Z"}
+{"level":"info","message":"🚀 Server 3000 portunda çalışıyor","timestamp":"2025-07-02T16:52:10.087Z"}
+{"level":"info","message":"📚 API Docs: http://localhost:3000/","timestamp":"2025-07-02T16:52:10.088Z"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","timestamp":"2025-07-02T16:52:10.088Z"}
+{"level":"info","message":"🐘 PostgreSQL Project Manager hazır!","timestamp":"2025-07-02T16:52:10.088Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:52:18.241Z"}
+{"level":"info","message":"SIGTERM alındı, server kapatılıyor...","timestamp":"2025-07-02T16:52:47.651Z"}
+{"level":"info","message":"Local database başarıyla başlatıldı","timestamp":"2025-07-02T16:52:49.905Z"}
+{"level":"info","message":"PostgreSQL master bağlantısı başarıyla başlatıldı","timestamp":"2025-07-02T16:52:49.922Z"}
+{"level":"info","message":"🚀 Server 3000 portunda çalışıyor","timestamp":"2025-07-02T16:52:49.923Z"}
+{"level":"info","message":"📚 API Docs: http://localhost:3000/","timestamp":"2025-07-02T16:52:49.923Z"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","timestamp":"2025-07-02T16:52:49.923Z"}
+{"level":"info","message":"🐘 PostgreSQL Project Manager hazır!","timestamp":"2025-07-02T16:52:49.923Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:52:58.107Z"}
+{"level":"info","message":"POST /api/database/36ccb025-2484-464e-84b0-5792195a8d00/tables - ::1","timestamp":"2025-07-02T16:53:08.288Z"}
+{"level":"info","message":"POST /api/database/36ccb025-2484-464e-84b0-5792195a8d00/tables - ::1","timestamp":"2025-07-02T16:53:33.032Z"}
+{"level":"info","message":"POST /api/database/36ccb025-2484-464e-84b0-5792195a8d00/tables/posts/records - ::1","timestamp":"2025-07-02T16:53:42.207Z"}
+{"level":"info","message":"GET /api/database/36ccb025-2484-464e-84b0-5792195a8d00/tables/posts/records - ::1","timestamp":"2025-07-02T16:53:49.713Z"}
+{"level":"info","message":"POST /api/database/36ccb025-2484-464e-84b0-5792195a8d00/query - ::1","timestamp":"2025-07-02T16:53:57.832Z"}
+{"level":"info","message":"GET /api/projects - ::1","timestamp":"2025-07-02T16:54:04.335Z"}
+{"level":"info","message":"GET /api/projects/stats/overview - ::1","timestamp":"2025-07-02T16:54:10.158Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:56:35.052Z"}
+{"level":"info","message":"POST /api/database/288bd3b6-fc41-4993-b403-24531d2cabb8/tables - ::1","timestamp":"2025-07-02T16:57:07.646Z"}
+{"level":"info","message":"POST /api/database/288bd3b6-fc41-4993-b403-24531d2cabb8/tables - ::1","timestamp":"2025-07-02T16:57:13.508Z"}
+{"level":"info","message":"SIGTERM alındı, server kapatılıyor...","timestamp":"2025-07-02T16:58:06.005Z"}
+{"level":"info","message":"Local database başarıyla başlatıldı","timestamp":"2025-07-02T16:58:08.373Z"}
+{"level":"info","message":"PostgreSQL master bağlantısı başarıyla başlatıldı","timestamp":"2025-07-02T16:58:08.402Z"}
+{"level":"info","message":"🚀 Server 3000 portunda çalışıyor","timestamp":"2025-07-02T16:58:08.404Z"}
+{"level":"info","message":"📚 API Docs: http://localhost:3000/","timestamp":"2025-07-02T16:58:08.404Z"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","timestamp":"2025-07-02T16:58:08.405Z"}
+{"level":"info","message":"🐘 PostgreSQL Project Manager hazır!","timestamp":"2025-07-02T16:58:08.405Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:58:18.152Z"}
+{"level":"info","message":"POST /api/database/5dfcfe6a-16ff-4a4c-bcbc-a66d53704111/tables - ::1","timestamp":"2025-07-02T16:58:28.710Z"}
+{"level":"info","message":"POST /api/projects - ::1","timestamp":"2025-07-02T16:58:43.841Z"}
+{"level":"info","message":"POST /api/database/5b565542-3f90-43be-97a3-e5c4542bf266/tables - ::1","timestamp":"2025-07-02T16:58:59.178Z"}
+{"level":"info","message":"POST /api/database/5b565542-3f90-43be-97a3-e5c4542bf266/tables/customers/records - ::1","timestamp":"2025-07-02T16:59:17.234Z"}
+{"level":"info","message":"GET /api/database/5b565542-3f90-43be-97a3-e5c4542bf266/tables/customers/records - ::1","timestamp":"2025-07-02T16:59:34.205Z"}
+{"level":"info","message":"GET /api/database/5b565542-3f90-43be-97a3-e5c4542bf266/tables - ::1","timestamp":"2025-07-02T16:59:55.850Z"}

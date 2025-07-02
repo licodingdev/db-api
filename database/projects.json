@@ -1,0 +1,404 @@
+{
+  "projects": [
+    {
+      "id": "ff7ccc4c-54d3-4988-a59b-76871bbec6ac",
+      "name": "e-ticaret-projesi",
+      "description": "Online mağaza uygulaması",
+      "status": "stopped",
+      "created_at": "2025-07-02T16:20:59.401Z",
+      "updated_at": "2025-07-02T16:20:59.402Z",
+      "api_port": 55001,
+      "db_port": 56001,
+      "studio_port": 57001,
+      "api_url": "http://127.0.0.1:55001",
+      "db_url": "postgresql://postgres:postgres@127.0.0.1:56001/postgres",
+      "studio_url": "http://127.0.0.1:57001",
+      "anon_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0",
+      "service_role_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5Nn0.EGIM96RAZx35lJzdJsyH-qQwv8Hdp7fsn3W0YpN81IU",
+      "jwt_secret": "super-secret-jwt-token-with-at-least-32-characters-long",
+      "project_path": "/Users/kurtuluscomertq/Desktop/psql-api/projects/e-ticaret-projesi",
+      "owner_id": "system",
+      "tags": [
+        "ecommerce",
+        "production-ready"
+      ],
+      "environment": "development"
+    },
+    {
+      "id": "2185db45-d307-4500-a37e-6edc0387ffec",
+      "name": "test-projesi",
+      "description": "İlk test projesi",
+      "status": "active",
+      "created_at": "2025-07-02T16:49:50.938Z",
+      "updated_at": "2025-07-02T16:50:08.398Z",
+      "database_name": "test_projesi",
+      "database_username": "test_projesi_user",
+      "database_password": "6805c882cee9e620518bb44e6c95b29c",
+      "database_host": "localhost",
+      "database_port": 5433,
+      "connection_string": "postgresql://test_projesi_user:6805c882cee9e620518bb44e6c95b29c@localhost:5433/test_projesi",
+      "owner_id": "system",
+      "tags": [
+        "test",
+        "postgresql"
+      ],
+      "environment": "development",
+      "table_count": 0,
+      "last_accessed": "2025-07-02T16:50:08.398Z"
+    },
+    {
+      "id": "c3580494-de96-42fc-8f46-b85e48b2ce86",
+      "name": "ecommerce-db",
+      "description": "E-ticaret veritabanı",
+      "status": "active",
+      "created_at": "2025-07-02T16:51:05.450Z",
+      "updated_at": "2025-07-02T16:51:14.381Z",
+      "database_name": "ecommerce_db",
+      "database_username": "ecommerce_db_user",
+      "database_password": "ecd845102a9ca19da8931b76319ab1c1",
+      "database_host": "localhost",
+      "database_port": 5433,
+      "connection_string": "postgresql://ecommerce_db_user:ecd845102a9ca19da8931b76319ab1c1@localhost:5433/ecommerce_db",
+      "owner_id": "system",
+      "tags": [
+        "ecommerce",
+        "postgresql"
+      ],
+      "environment": "development",
+      "table_count": 0,
+      "last_accessed": "2025-07-02T16:51:14.381Z"
+    },
+    {
+      "id": "36ccb025-2484-464e-84b0-5792195a8d00",
+      "name": "blog-database",
+      "description": "Blog uygulaması veritabanı",
+      "status": "active",
+      "created_at": "2025-07-02T16:52:58.180Z",
+      "updated_at": "2025-07-02T16:53:57.833Z",
+      "database_name": "blog_database",
+      "database_username": "blog_database_user",
+      "database_password": "15e9afa0ec3d898b7dd72874b4b0007a",
+      "database_host": "localhost",
+      "database_port": 5433,
+      "connection_string": "postgresql://blog_database_user:15e9afa0ec3d898b7dd72874b4b0007a@localhost:5433/blog_database",
+      "owner_id": "system",
+      "tags": [
+        "blog",
+        "cms"
+      ],
+      "environment": "development",
+      "table_count": 0,
+      "last_accessed": "2025-07-02T16:53:57.833Z"
+    },
+    {
+      "id": "288bd3b6-fc41-4993-b403-24531d2cabb8",
+      "name": "my-awesome-project",
+      "description": "Deneme projesi",
+      "status": "active",
+      "created_at": "2025-07-02T16:56:35.177Z",
+      "updated_at": "2025-07-02T16:57:13.511Z",
+      "database_name": "my_awesome_project",
+      "database_username": "my_awesome_project_user",
+      "database_password": "8c0772688edfa46d197c8c749bdc1188",
+      "database_host": "localhost",
+      "database_port": 5433,
+      "connection_string": "postgresql://my_awesome_project_user:8c0772688edfa46d197c8c749bdc1188@localhost:5433/my_awesome_project",
+      "owner_id": "system",
+      "tags": [
+        "deneme",
+        "postgres"
+      ],
+      "environment": "development",
+      "table_count": 0,
+      "last_accessed": "2025-07-02T16:57:13.511Z"
+    },
+    {
+      "id": "5dfcfe6a-16ff-4a4c-bcbc-a66d53704111",
+      "name": "test-fixed-permissions",
+      "description": "Schema izinleri düzeltilmiş test projesi",
+      "status": "active",
+      "created_at": "2025-07-02T16:58:18.236Z",
+      "updated_at": "2025-07-02T16:58:28.744Z",
+      "database_name": "test_fixed_permissions",
+      "database_username": "test_fixed_permissions_user",
+      "database_password": "fb7e6f14e0dc7cb6b1d849e48cc4ce1f",
+      "database_host": "localhost",
+      "database_port": 5433,
+      "connection_string": "postgresql://test_fixed_permissions_user:fb7e6f14e0dc7cb6b1d849e48cc4ce1f@localhost:5433/test_fixed_permissions",
+      "owner_id": "system",
+      "tags": [
+        "test",
+        "fixed"
+      ],
+      "environment": "development",
+      "table_count": 1,
+      "last_accessed": "2025-07-02T16:58:28.744Z"
+    },
+    {
+      "id": "5b565542-3f90-43be-97a3-e5c4542bf266",
+      "name": "crm-app",
+      "description": "CRM yönetim uygulaması",
+      "status": "active",
+      "created_at": "2025-07-02T16:58:43.931Z",
+      "updated_at": "2025-07-02T16:59:55.852Z",
+      "database_name": "crm_app",
+      "database_username": "crm_app_user",
+      "database_password": "1c15b3bdf5ef82c64781682d33307cfa",
+      "database_host": "localhost",
+      "database_port": 5433,
+      "connection_string": "postgresql://crm_app_user:1c15b3bdf5ef82c64781682d33307cfa@localhost:5433/crm_app",
+      "owner_id": "system",
+      "tags": [
+        "crm",
+        "customers"
+      ],
+      "environment": "development",
+      "table_count": 0,
+      "last_accessed": "2025-07-02T16:59:55.852Z"
+    }
+  ],
+  "port_usage": [
+    {
+      "port": 55001,
+      "project_id": "ff7ccc4c-54d3-4988-a59b-76871bbec6ac",
+      "service_type": "api",
+      "status": "active",
+      "allocated_at": "2025-07-02T16:20:59.397Z"
+    },
+    {
+      "port": 56001,
+      "project_id": "ff7ccc4c-54d3-4988-a59b-76871bbec6ac",
+      "service_type": "db",
+      "status": "active",
+      "allocated_at": "2025-07-02T16:20:59.397Z"
+    },
+    {
+      "port": 57001,
+      "project_id": "ff7ccc4c-54d3-4988-a59b-76871bbec6ac",
+      "service_type": "studio",
+      "status": "active",
+      "allocated_at": "2025-07-02T16:20:59.397Z"
+    },
+    {
+      "port": 58001,
+      "project_id": "ff7ccc4c-54d3-4988-a59b-76871bbec6ac",
+      "service_type": "inbucket",
+      "status": "active",
+      "allocated_at": "2025-07-02T16:20:59.398Z"
+    }
+  ],
+  "project_logs": [
+    {
+      "id": 1751473029246,
+      "project_id": "95436c33-caed-460b-aa4f-f5513d4a76cc",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "Proje oluşturuldu: test-projesi-1",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:17:09.246Z"
+    },
+    {
+      "id": 1751473035790,
+      "project_id": "9486be49-923a-4aa7-acc6-e04260fcaa19",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "Proje oluşturuldu: e-ticaret-projesi",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:17:15.790Z"
+    },
+    {
+      "id": 1751473079731,
+      "project_id": "95436c33-caed-460b-aa4f-f5513d4a76cc",
+      "action": "START",
+      "status": "ERROR",
+      "message": "Seeding globals from roles.sql...\nWARN: no files matched pattern: supabase/seed.sql\nStopping containers...\nfailed to start docker container: Error response from daemon: failed to set up container networking: driver failed programming external connectivity on endpoint supabase_analytics_test-projesi-1 (722baac3f80cdda2e73cb7efe4289e5b493559e2dd5f16bf398daf1bee936995): Bind for 0.0.0.0:54327 failed: port is already allocated\n\nTry stopping the running project with supabase stop --project-id psql-api\nOr configure a different analytics port in supabase/config.toml\n",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:17:59.731Z"
+    },
+    {
+      "id": 1751473132576,
+      "project_id": "95436c33-caed-460b-aa4f-f5513d4a76cc",
+      "action": "START",
+      "status": "SUCCESS",
+      "message": "Proje başlatıldı",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:18:52.576Z"
+    },
+    {
+      "id": 1751473170646,
+      "project_id": "9486be49-923a-4aa7-acc6-e04260fcaa19",
+      "action": "START",
+      "status": "ERROR",
+      "message": "Seeding globals from roles.sql...\nWARN: no files matched pattern: supabase/seed.sql\nStopping containers...\nfailed to start docker container: Error response from daemon: failed to set up container networking: driver failed programming external connectivity on endpoint supabase_analytics_e-ticaret-projesi (4294e067299c2adc28877b1c583cc5c7bc373c77d965c6f9ee39ce85cde80e91): Bind for 0.0.0.0:54327 failed: port is already allocated\n\nTry stopping the running project with supabase stop --project-id test-projesi-1\nOr configure a different analytics port in supabase/config.toml\n",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:19:30.646Z"
+    },
+    {
+      "id": 1751473240537,
+      "project_id": "95436c33-caed-460b-aa4f-f5513d4a76cc",
+      "action": "STOP",
+      "status": "SUCCESS",
+      "message": "Proje durduruldu",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:20:40.537Z"
+    },
+    {
+      "id": 1751473240543,
+      "project_id": "95436c33-caed-460b-aa4f-f5513d4a76cc",
+      "action": "DELETE",
+      "status": "SUCCESS",
+      "message": "Proje silindi",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:20:40.543Z"
+    },
+    {
+      "id": 1751473247085,
+      "project_id": "9486be49-923a-4aa7-acc6-e04260fcaa19",
+      "action": "DELETE",
+      "status": "SUCCESS",
+      "message": "Proje silindi",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:20:47.085Z"
+    },
+    {
+      "id": 1751473253646,
+      "project_id": "3d4911a8-1022-4083-93da-6d008f63fb37",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "Proje oluşturuldu: test-projesi-1",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:20:53.646Z"
+    },
+    {
+      "id": 1751473259403,
+      "project_id": "ff7ccc4c-54d3-4988-a59b-76871bbec6ac",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "Proje oluşturuldu: e-ticaret-projesi",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:20:59.403Z"
+    },
+    {
+      "id": 1751473289035,
+      "project_id": "3d4911a8-1022-4083-93da-6d008f63fb37",
+      "action": "START",
+      "status": "SUCCESS",
+      "message": "Proje başlatıldı",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:21:29.035Z"
+    },
+    {
+      "id": 1751473323727,
+      "project_id": "ff7ccc4c-54d3-4988-a59b-76871bbec6ac",
+      "action": "START",
+      "status": "ERROR",
+      "message": "Seeding globals from roles.sql...\nWARN: no files matched pattern: supabase/seed.sql\nStopping containers...\nfailed to start docker container: Error response from daemon: failed to set up container networking: driver failed programming external connectivity on endpoint supabase_analytics_e-ticaret-projesi (ec734f00ea59f616ffd90c3c53f7c85bce54ef1dd83a1db068248e91e8a73065): Bind for 0.0.0.0:54327 failed: port is already allocated\n\nTry stopping the running project with supabase stop --project-id test-projesi-1\nOr configure a different analytics port in supabase/config.toml\n",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:22:03.727Z"
+    },
+    {
+      "id": 1751473369566,
+      "project_id": "3d4911a8-1022-4083-93da-6d008f63fb37",
+      "action": "STOP",
+      "status": "SUCCESS",
+      "message": "Proje durduruldu",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:22:49.566Z"
+    },
+    {
+      "id": 1751473369570,
+      "project_id": "3d4911a8-1022-4083-93da-6d008f63fb37",
+      "action": "DELETE",
+      "status": "SUCCESS",
+      "message": "Proje silindi",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:22:49.570Z"
+    },
+    {
+      "id": 1751474990940,
+      "project_id": "2185db45-d307-4500-a37e-6edc0387ffec",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "PostgreSQL projesi oluşturuldu: test-projesi",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:49:50.940Z"
+    },
+    {
+      "id": 1751475027733,
+      "project_id": "2185db45-d307-4500-a37e-6edc0387ffec",
+      "action": "DELETE",
+      "status": "ERROR",
+      "message": "role \"test_projesi_user\" cannot be dropped because some objects depend on it",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:50:27.733Z"
+    },
+    {
+      "id": 1751475048100,
+      "project_id": "2185db45-d307-4500-a37e-6edc0387ffec",
+      "action": "DELETE",
+      "status": "ERROR",
+      "message": "role \"test_projesi_user\" cannot be dropped because some objects depend on it",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:50:48.100Z"
+    },
+    {
+      "id": 1751475065451,
+      "project_id": "c3580494-de96-42fc-8f46-b85e48b2ce86",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "PostgreSQL projesi oluşturuldu: ecommerce-db",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:51:05.451Z"
+    },
+    {
+      "id": 1751475138305,
+      "project_id": "7a37e11d-0adb-4680-8663-b028ebc0b12a",
+      "action": "CREATE",
+      "status": "ERROR",
+      "message": "dbName is not defined",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:52:18.305Z"
+    },
+    {
+      "id": 1751475178181,
+      "project_id": "36ccb025-2484-464e-84b0-5792195a8d00",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "PostgreSQL projesi oluşturuldu: blog-database",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:52:58.181Z"
+    },
+    {
+      "id": 1751475395181,
+      "project_id": "288bd3b6-fc41-4993-b403-24531d2cabb8",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "PostgreSQL projesi oluşturuldu: my-awesome-project",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:56:35.181Z"
+    },
+    {
+      "id": 1751475498238,
+      "project_id": "5dfcfe6a-16ff-4a4c-bcbc-a66d53704111",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "PostgreSQL projesi oluşturuldu: test-fixed-permissions",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:58:18.238Z"
+    },
+    {
+      "id": 1751475523934,
+      "project_id": "5b565542-3f90-43be-97a3-e5c4542bf266",
+      "action": "CREATE",
+      "status": "SUCCESS",
+      "message": "PostgreSQL projesi oluşturuldu: crm-app",
+      "error_details": null,
+      "timestamp": "2025-07-02T16:58:43.934Z"
+    }
+  ],
+  "api_stats": [],
+  "settings": {
+    "created_at": "2025-07-02T16:16:59.375Z",
+    "version": "1.0.0"
+  }
+}
